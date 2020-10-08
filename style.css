@@ -63,7 +63,6 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-
     background: none;
     font-weight: bold;
     width: 70%;
@@ -75,4 +74,7 @@ output[type="number"]{
     font-weight: 600;
 }
 
+::placeholder{
+    color: rgb(192, 189, 189);
+}
 
